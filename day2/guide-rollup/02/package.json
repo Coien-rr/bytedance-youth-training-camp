@@ -1,0 +1,12 @@
+{
+  "name": "guide-rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "devDependencies": {
+    "rollup": "^2.56.3"
+  }
+}
