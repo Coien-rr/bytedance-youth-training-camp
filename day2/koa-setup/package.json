@@ -3,9 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": "./bin/index.js",
   "scripts": {
-    "test": "rimraf ./haha && node index.js"
+    "test": "rimraf ./haha && koa-setup index.js"
   },
   "keywords": [],
   "author": "",
