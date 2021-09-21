@@ -40,5 +40,5 @@ module.exports = async name =>{
    
    log(`安装依赖......`);
    await spawn('npm', ['install'], {cwd :`./${name}`});
-   const open = open('http://localhost:8080');
+   const open = open('http://localhost:8081');
 }
